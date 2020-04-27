@@ -1,3 +1,10 @@
+This fork of `paradoxxxzero/gnome-shell-system-monitor-applet` is for
+packaging purposes only. Specifically, the extension on
+extensions.gnome.org will be updated continuously with the `master`
+branch. This is preferable for users on bleeding edge distributions that
+prefer not to wait for a stable release from the main repo and are willing
+to risk some instability by running `master` directly.
+
 ## Gnome shell system monitor extension
 
 [![Build Status](https://img.shields.io/travis/paradoxxxzero/gnome-shell-system-monitor-applet.svg?branch=master)](https://travis-ci.org/paradoxxxzero/gnome-shell-system-monitor-applet)
