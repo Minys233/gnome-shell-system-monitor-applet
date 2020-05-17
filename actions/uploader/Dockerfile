@@ -9,7 +9,8 @@ RUN apt install -y \
     chromium \
     python-dev \
     python-virtualenv \
-    python3-dev
+    python3-dev \
+    unzip
 
 ### Install chromedriver, make sure chromium version matches driver support version ###
 RUN if ! curl -fL -o chromedriver_linux64.zip https://chromedriver.storage.googleapis.com/80.0.3987.106/chromedriver_linux64.zip; then \
@@ -31,3 +32,5 @@ RUN echo "en_US.UTF-8 UTF-8" > /etc/locale.gen && \
 ENV LC_ALL en_US.UTF-8
 
 RUN pip install selenium
+COPY . /app
+CMD ["/app/run.sh"]
