@@ -42,6 +42,7 @@ def main(username, password, zipball_path):
     driver.find_by_css('#id_tos_compliant').click()
     print("Submitting extension form")
     driver.find_by_css('#container button[type=submit]').click()
+    print("Done!")
 
 
 if __name__ == "__main__":
