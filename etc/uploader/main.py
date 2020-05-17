@@ -11,6 +11,7 @@ from selenium.webdriver.chrome.options import Options
 class MyDriver(webdriver.Chrome):
     def __init__(self, *args, **kwargs):
         options = Options()
+        options.add_argument('headless')
         options.add_experimental_option('detach', True)
         super().__init__(options=options)
 
