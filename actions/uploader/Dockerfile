@@ -8,7 +8,7 @@ RUN apt install -y \
     build-essential \
     chromium \
     python-dev \
-    python-virtualenv \
+    python-pip \
     python3-dev \
     unzip
 
