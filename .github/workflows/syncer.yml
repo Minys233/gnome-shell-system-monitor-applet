@@ -1,0 +1,12 @@
+name: Repo syncer
+on:
+  schedule:
+    - cron: "*/60 * * * *"
+jobs:
+  sync_plz_thx:
+    name: Sync and push
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: ./actions/syncer/
+      uses: ./actions/syncer/
