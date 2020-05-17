@@ -1,7 +1,7 @@
 name: Repo syncer
 on:
   schedule:
-    - cron: "*/60 * * * *"
+    - cron: "*/5 * * * *"
 jobs:
   sync_plz_thx:
     name: Sync and push
