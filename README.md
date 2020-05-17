@@ -1,3 +1,5 @@
+![Extension uploader](https://github.com/mgalgs/gnome-shell-system-monitor-applet/workflows/Extension%20uploader/badge.svg)
+
 This fork of `paradoxxxzero/gnome-shell-system-monitor-applet` is for
 packaging purposes only. Specifically, the extension on
 extensions.gnome.org
