@@ -12,5 +12,5 @@ jobs:
     - name: ./actions/uploader/
       uses: ./actions/uploader/
       env:
-        USERNAME: ${{ secrets.USERNAME }}
-        PASSWORD: ${{ secrets.PASSWORD }}
+        USERNAME: ${{ secrets.GNOME_USERNAME }}
+        PASSWORD: ${{ secrets.GNOME_PASSWORD }}
