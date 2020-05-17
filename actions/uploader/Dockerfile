@@ -7,11 +7,16 @@ RUN apt install -y \
         bc \
         build-essential \
         chromium \
+        gettext \
+        gir1.2-clutter-1.0 \
+        gir1.2-gtop-2.0 \
+        gir1.2-nm-1.0 \
+        git \
         libglib2.0-bin \
-        python-dev \
-        python-pip \
         python3-dev \
-        unzip
+        python3-pip \
+        unzip \
+        zip
 
 ### Install chromedriver, make sure chromium version matches driver support version ###
 RUN if ! curl -fL -o chromedriver_linux64.zip https://chromedriver.storage.googleapis.com/80.0.3987.106/chromedriver_linux64.zip; then \
@@ -27,6 +32,6 @@ RUN if ! curl -fL -o chromedriver_linux64.zip https://chromedriver.storage.googl
     rm chromedriver_linux64.zip; \
 chmod +x /usr/local/bin/chromedriver
 
-RUN pip install selenium
+RUN pip3 install selenium
 COPY . /app
 CMD ["/app/run.sh"]

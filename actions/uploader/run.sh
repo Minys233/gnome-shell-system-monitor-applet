@@ -10,4 +10,4 @@ make zip-file clean
 export USERNAME
 export PASSWORD
 export ZIPBALL=./dist/system-monitor@paradoxxx.zero.gmail.com.zip
-python /app/upload.py
+python3 /app/upload.py
