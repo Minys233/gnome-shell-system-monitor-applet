@@ -26,11 +26,6 @@ RUN if ! curl -fL -o chromedriver_linux64.zip https://chromedriver.storage.googl
     rm chromedriver_linux64.zip; \
 chmod +x /usr/local/bin/chromedriver
 
-RUN echo "en_US.UTF-8 UTF-8" > /etc/locale.gen && \
-    locale-gen en_US.UTF-8 && \
-    /usr/sbin/update-locale LANG=en_US.UTF-8
-ENV LC_ALL en_US.UTF-8
-
 RUN pip install selenium
 COPY . /app
 CMD ["/app/run.sh"]
