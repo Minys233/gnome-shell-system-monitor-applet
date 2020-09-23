@@ -7,7 +7,7 @@ extensions.gnome.org
 ([system-monitor-next](https://extensions.gnome.org/extension/3010/system-monitor-next/))
 will be updated continuously with the `master` branch.
 
-This is preferable for users on bleeding edge distributions that prefer not
+This is preferable for users on bleeding edge distributions who prefer not
 to wait for a stable release from the main repo. Of course, since we're
 releasing directly from `master` some instability is inevitable.
 
