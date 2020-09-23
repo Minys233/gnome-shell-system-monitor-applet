@@ -19,7 +19,7 @@ RUN apt install -y \
         zip
 
 ### Install chromedriver, make sure chromium version matches driver support version ###
-RUN if ! curl -fL -o chromedriver_linux64.zip https://chromedriver.storage.googleapis.com/80.0.3987.106/chromedriver_linux64.zip; then \
+RUN if ! curl -fL -o chromedriver_linux64.zip https://chromedriver.storage.googleapis.com/83.0.4103.39/chromedriver_linux64.zip; then \
         echo >&2 "error: failed to download chromedriver binary"; \
         exit 1; \
     fi; \
