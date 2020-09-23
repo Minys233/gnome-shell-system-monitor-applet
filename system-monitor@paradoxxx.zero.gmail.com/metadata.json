@@ -3,7 +3,7 @@
     "uuid": "system-monitor-next@paradoxxx.zero.gmail.com",
     "name": "system-monitor-next",
     "url": "https://github.com/mgalgs/gnome-shell-system-monitor-applet",
-    "description": "Display system informations in gnome shell status bar, such as memory usage, cpu usage, network rates…\nThis fork of paradoxxxzero/gnome-shell-system-monitor-applet is for packaging purposes only. This extension is built and updated continuously with the upstream master branch.\nThis is preferable for users on bleeding edge distributions that prefer not to wait for a stable release from the main repo. Of course, since we're releasing directly from master some instability is inevitable.",
+    "description": "Display system informations in gnome shell status bar, such as memory usage, cpu usage, network rates…\n\nThis fork of paradoxxxzero/gnome-shell-system-monitor-applet is for packaging purposes only. This extension is built and updated continuously with the upstream master branch.\n\nThis is preferable for users on bleeding edge distributions that prefer not to wait for a stable release from the main repo. Of course, since we're releasing directly from master some instability is inevitable.",
     "settings-schema":  "org.gnome.shell.extensions.system-monitor",
     "gettext-domain": "system-monitor",
     "version": -1
